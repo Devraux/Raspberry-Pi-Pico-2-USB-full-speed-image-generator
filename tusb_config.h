@@ -1,0 +1,17 @@
+#ifndef TUSB_CONFIG_H
+#define TUSB_CONFIG_H
+
+#define CFG_TUSB_MCU   OPT_MCU_RP2040
+#define CFG_TUSB_OS    OPT_OS_NONE
+
+#define CFG_TUD_VENDOR           1
+#define CFG_TUD_VENDOR_EP_IN      0x81
+#define CFG_TUD_VENDOR_EP_OUT     0x01
+#define CFG_TUD_VENDOR_RX_BUFSIZE 64
+#define CFG_TUD_VENDOR_TX_BUFSIZE 64
+
+#define USB_VID SET_YOUR_VID_HERE
+#define USB_PID SET_YOUR_PID_HERE
+#define USB_BCD SET_YOUR_BCD_HERE
+
+#endif
