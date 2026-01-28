@@ -1,3 +1,7 @@
+Visitors:
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Devraux.Raspberry-Pi-Pico-2-USB-full-speed-image-generator)
+
+
 # RP2350 Bare-Metal USB RGB888 Streamer
 
 This project implements a low-level USB data provider for the **Raspberry Pi Pico 2 (RP2350)**. It is designed to simulate high-throughput USB devices that transmit raw image data (RGB888) directly to a host. 
