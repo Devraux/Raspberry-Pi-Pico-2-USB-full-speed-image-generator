@@ -26,3 +26,29 @@ Transmission is organized into large memory blocks. Each block is segmented into
   +------------------------+----------------------------------------------+
   | <--- Fixed Header ---> | <--- 40,944 Bytes of Raw Pixel Data ------>  |
   +-----------------------------------------------------------------------+
+  ```
+
+  ---
+
+## Setup and Compilation Guide
+
+### 1. Environment Configuration
+Before building the project, ensure you have configured the following hardware constants in your source files (e.g., `usb_descriptors.c` or `config.h`):
+
+* **VID**: Your device's Vendor ID.
+* **PID**: Your device's Product ID.
+
+### 2. Build Instructions
+To compile the project using the MinGW toolchain, execute the following commands in your terminal:
+
+```bash
+# Create and enter the build directory
+mkdir build
+cd build
+
+# Generate the build system
+cmake -G "MinGW Makefiles" ..
+
+# Compile the application
+mingw32-make
+```
