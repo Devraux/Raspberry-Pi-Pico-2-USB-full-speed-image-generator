@@ -1,4 +1,3 @@
-Visitors:
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Devraux.Raspberry-Pi-Pico-2-USB-full-speed-image-generator)
 
 
