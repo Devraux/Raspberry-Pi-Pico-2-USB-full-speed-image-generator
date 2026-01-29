@@ -5,7 +5,7 @@
 
 This project implements a low-level USB data provider for the **Raspberry Pi Pico 2 (RP2350)**. It is designed to simulate high-throughput USB devices that transmit raw image data (RGB888) directly to a host. 
 
-The project successfully achieves a stable transfer rate of **3 MB/s**, pushing the limits of USB Full Speed (12 Mbps) through highly optimized bare-metal register access.
+The project successfully achieves a stable transfer rate of **3 Mbps**, pushing the limits of USB Full Speed (12 Mbps) through highly optimized bare-metal register access.
 
 ## Overview
 
